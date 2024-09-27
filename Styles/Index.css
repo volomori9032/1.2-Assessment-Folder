@@ -3,17 +3,19 @@ html {
     height: 100%;
 }
 
+body {
+    background-image: linear-gradient(to bottom right, grey, black);
+}
+
 .websitecode {
     display: grid;
-    background-image: linear-gradient(to bottom right, grey, black);
-    height: 905px;
-    width: 1903px;
+    height: 890px;
+    width: 1885px;
     grid-template-areas:
         'header header header header header header header'
         'main main main main main right right'
         'footer footer footer footer footer footer footer';
     gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
 }
 
@@ -30,28 +32,28 @@ html {
 .heading {
     grid-area: header;
     height: 150px;
-    width: 1903px;
+    width: 1875px;
     background-color: rgb(0, 255, 0);
 }
 
 .mainbody {
     grid-area: main;
     height: 600px;
-    width: 1500px;
+    width: 1300px;
     background-color: rgb(251, 255, 0);
 }
 
 .pagenavigationbar {
     grid-area: right;
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 540px;
     background-color: rgb(255, 145, 0);
-}
+} 
 
 .sociallinks {
     grid-area: footer;
-    height: 100px;
-    width: 1903px;
+    height: 75px;
+    width: 1875px;
     background-color: rgb(255, 0, 0);
 }
 
