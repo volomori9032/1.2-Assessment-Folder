@@ -36,7 +36,7 @@ html {
 
 .mainbody {
     grid-area: main;
-    height: 500px;
+    height: 600px;
     width: 1500px;
     background-color: rgb(251, 255, 0);
 }
