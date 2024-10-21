@@ -71,9 +71,14 @@ body {
 
 #page1 {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .one1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
@@ -82,9 +87,14 @@ body {
 
 #page2 {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .two2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
@@ -93,9 +103,14 @@ body {
 
 #page3 {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .three3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
@@ -104,9 +119,14 @@ body {
 
 #page4 {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .four4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
@@ -115,9 +135,14 @@ body {
 
 #textforum {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .textforum5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
@@ -126,9 +151,14 @@ body {
 
 #settings {    
     font-size: 40px;
+    text-decoration-line: none;
+    color: black;
 }
 
 .settings6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 180px;
     border: 10px solid black;
