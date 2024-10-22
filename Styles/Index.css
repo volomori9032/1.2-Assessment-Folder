@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, grey, black);
+    background-color: rgb(0, 0, 0);
 }
 
 .websitecode {
@@ -34,40 +34,54 @@ body {
     grid-area: header;    
     height: 150px;    
     width: 1875px;    
-    background-color: rgb(0, 255, 251);
+    background-color: rgb(255, 255, 255);
 }
 
 .search {
     grid-area: menu;
     height: 25px;
     width: 1875px;
-    background-color: rgb(13, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .mainbody {    
     grid-area: main;   
     height: 600px;    
     width: 1300px;    
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#body {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: black;
+    text-decoration: underline;
+}
+
+#body1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#body2 {
+    font-size: 30px;
+}
+
+#body3 {
+    font-size: 30px;
 }
 
 .pagenavigationbar {
     grid-area: right;
     height: 600px;
     width: 540px;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row wrap; 
     justify-content: center;
     align-items: center;
 } 
-
-.sociallinks {    
-    grid-area: footer;    
-    height: 75px;    
-    width: 1875px;    
-    background-color: rgb(255, 0, 0);
-}
 
 #page1 {    
     font-size: 40px;
@@ -165,23 +179,35 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-#body {
-    font-size: 50px;
-    font-weight: bold;
+.sociallinks {    
+    display: flex;
+    justify-content: space-around;
+    grid-area: footer;    
+    height: 75px;    
+    width: 1875px;    
+    background-color: rgb(255, 255, 255);
+}
+
+#instagram {
+    font-size: 60px;
     text-decoration-line: none;
     color: black;
-    text-decoration: underline;
 }
 
-#body1 {
-    font-size: 35px;
-    font-weight: 600;
+#x {
+    font-size: 60px;
+    text-decoration-line: none;
+    color: black;
 }
 
-#body2 {
-    font-size: 30px;
+#facebook {
+    font-size: 60px;
+    text-decoration-line: none;
+    color: black;
 }
 
-#body3 {
-    font-size: 30px;
+#mail {
+    font-size: 60px;
+    text-decoration-line: none;
+    color: black;
 }
