@@ -32,23 +32,52 @@ body {
 
 .heading {
     grid-area: header;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 150px;    
     width: 1875px;    
+    background-color: rgb(0, 0, 0);
+}
+
+#head1 {
+    font-size: 20px;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
     background-color: rgb(255, 255, 255);
+    margin: 300px;
+}
+
+.parlogo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.parlogos {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .search {
     grid-area: menu;
     height: 25px;
     width: 1875px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 .mainbody {    
     grid-area: main;   
     height: 600px;    
     width: 1300px;    
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #body {
@@ -76,7 +105,7 @@ body {
     grid-area: right;
     height: 600px;
     width: 540px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     display: flex;
     flex-flow: row wrap; 
     justify-content: center;
@@ -96,7 +125,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #page2 {    
@@ -112,7 +141,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #page3 {    
@@ -128,7 +157,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #page4 {    
@@ -144,7 +173,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #textforum {    
@@ -160,7 +189,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #settings {    
@@ -176,7 +205,7 @@ body {
     width: 250px;
     height: 180px;
     border: 10px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 .sociallinks {    
@@ -185,7 +214,7 @@ body {
     grid-area: footer;    
     height: 75px;    
     width: 1875px;    
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
 }
 
 #instagram {
